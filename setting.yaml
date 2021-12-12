@@ -1,0 +1,24 @@
+RECEIPTC:
+  hospital_name:
+    row: IR
+    col: 7
+  patient_name:
+    row: RE
+    col:
+      - 5
+      - 37
+  patient_id:
+    row: RE
+    col: 14
+RECEIPTD:
+  hospital_name:
+    row: IR
+    col: 7
+  patient_name:
+    row: RE
+    col:
+      - 5
+      - 29
+  patient_id:
+    row: RE
+    col: 14
