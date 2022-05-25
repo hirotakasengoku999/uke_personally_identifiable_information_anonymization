@@ -31,7 +31,7 @@ def make_newtext(target_file):
     patientid_col = m_dict['patient_id']['col']
     new_text = ""
     for row in rows:
-
+        row_list = row.split(',')
         # 病院名
         if row_list[0] == hospital_row:
             row_list[m_dict['hospital_name']['col'] - 1] = "テスト病院"
@@ -52,7 +52,7 @@ def make_newtext(target_file):
             new_text += ','.join(row_list)
 
         else:
-            new_text += i
+            new_text += row
     return(new_text)
 
 
